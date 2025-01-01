@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="main.css">
+
+    </head>
+    <body>
+        <header class="navbar navbar-expand-lg sitcky-top p-4" id="cabecalho">
+            <div class="container">
+                <h1 class="navbar-brand m-0 section-title">Hambúrgueria calça quadrada</h1>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                    <ul class="nav nav-pills d-block d-md-flex" >
+                        <li class="nav-item fw-bold">
+                            <a href="#sobre" class="nav-link">
+                                <i class="bi bi-house-door me-1"></i>
+                                Sobre o restaurante</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#eventos" class="nav-link">
+                                <i class="bi bi-calendar-check me-1"></i>
+                                Eventos</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#cardapio" class="nav-link">
+                                <i class="bi bi-card-text me-1"></i>
+                                Nosso cardápio</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#fale-conosco" class="nav-link">
+                                <i class="bi bi-chat-left-text me-1"></i>
+                                Fale conosco</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+            <section id="sobre">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="images/slides/images2.jpg" alt="">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="images/slides/images1.jpg" alt="">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="images/slides/images3.jpg" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" data-bs-target="#carousel" data-bs-slide="prev"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-next-icon" data-bs-target="#carousel" data-bs-slide="next"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"> </button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"> </button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"> </button>
+                    </div>
+                </div>
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="images/restaurante1.jpg" class="d-block w-100 rounded">
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-title">Sobre <span class="text-colored">a Hambúrgueria</span></h2>
+                                <p>A Hambúrgueria Calça Quadrada,é um restaurante tematizado inspirado no famoso restaurante "Siri Cascudo" do desenho Bob Esponja.
+                                   Desde sua inauguração em 2021, a hamburgueria tem se destacado pelo seu ambiente divertido e pela originalidade dos hambúrgueres, 
+                                   especialmente o famoso hambúrguer de siri, feito com carne de siri</p>
+                                <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                                <p>O espaço da Hambúrgueria Calça Quadrada é uma verdadeira viagem ao fundo do mar. Com decoração inspirada no desenho Bob Esponja, 
+                                    o ambiente é colorido, acolhedor e cheio de detalhes que encantam os visitantes1. As crianças ficam especialmente empolgadas ao verem o local, que lembra o famoso restaurante do desenho</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="eventos" class="pt-5 pb-5">
+                <div class="container">
+                    <di class="row">
+                        <h2 class="section-title text-center">Para todas as <span class="text-colored">as ocasiões</span></h2>
+                    </di>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <img src="images/eventos/aniversario.jpg" alt="" class="d-blow w-100 rounded mb-2">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-calendar-heart-fill"></i>
+                                Aniversario
+                            </h3>
+                            <p>Comemorar um aniversário na Hambúrgueria Calça Quadrada é uma experiência mágica para crianças e adultos. O espaço temático inspirado no Bob Esponja cria um ambiente divertido e acolhedor, ideal para festas. A equipe do restaurante está pronta para tornar cada detalhe especial, desde a decoração até o cardápio personalizado, que inclui os famosos hambúrgueres de siri e outras delícias. Os convidados podem aproveitar um ambiente cheio de diversão e nostalgia, onde a alegria é garantida
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/eventos/casamento.jpg" alt="" class="d-blow w-100 rounded mb-2">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-arrow-through-heart-fill"></i>
+                                Recepção para casamentos
+                            </h3>
+                            <p>Um casamento na Hambúrgueria Calça Quadrada é a escolha perfeita para casais que buscam uma celebração única e cheia de personalidade. O ambiente temático e divertido, inspirado no mundo encantado de Bob Esponja, proporciona uma atmosfera descontraída e alegre para a cerimônia e a festa. A equipe do restaurante cuida de todos os detalhes, desde a decoração temática até o cardápio exclusivo, garantindo uma experiência memorável para os noivos e seus convidados. Celebre o amor de uma maneira inovadora e divertida, onde a magia e a alegria estão presentes em cada momento.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/eventos/confraternizacoes.jpg" alt="" class="d-blow w-100 rounded mb-2">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-people-fill"></i>
+                                Confraternizacoes
+                            </h3>
+                            <p>Realizar confraternizações na Hambúrgueria Calça Quadrada é sinônimo de momentos inesquecíveis e muita diversão. O ambiente único e temático oferece um espaço acolhedor e descontraído, perfeito para reunir amigos, familiares ou colegas de trabalho. A variedade de hambúrgueres deliciosos e o atendimento exemplar garantem que todos se sintam bem-vindos e satisfeitos. Além disso, a decoração inspirada no Bob Esponja torna cada encontro ainda mais especial, proporcionando um toque de nostalgia e alegria.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="cardapio" class="pt-5 pb-5">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">cardapio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Bebidas não alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-com-alcool" class="fw-bold text-start nav-link text-colored">Bebidas alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hamburguer" class="fw-bold text-start nav-link text-colored">Hamburguer</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#prato-principal" class="fw-bold text-start nav-link text-colored">Pratos principal</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active"  id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                        <p>A Coca-Cola é uma das bebidas mais icônicas e populares do mundo. Lançada em 1886 nos Estados Unidos, ela rapidamente se tornou uma referência global no segmento de refrigerantes.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/suco.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Suco de Laranja</h5>
+                                        <p>O suco de laranja é uma bebida popular conhecida por seu sabor refrescante e inúmeros benefícios à saúde. Rico em vitamina C, antioxidantes e outros nutrientes essenciais.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/sprinte.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">sprinte</h5>
+                                        <p>O suco de Sprite é uma bebida não convencional, mas bastante apreciada por aqueles que gostam de misturar a leveza e a refrescância do refrigerante Sprite com o sabor natural de frutas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/Guarana.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Guarana</h5>
+                                        <p>O Guaraná é uma bebida tradicional e muito querida no Brasil, feita a partir do extrato de guaraná, uma fruta amazônica conhecida por suas propriedades energéticas.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="bebidas-com-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/cerveja.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
+                                        <p>A cerveja é uma das bebidas alcoólicas mais antigas e consumidas no mundo. Feita a partir da fermentação de cereais como cevada, trigo e lúpulo, a cerveja oferece uma vasta variedade de sabores e estilos, desde as leves e refrescantes até as encorpadas e complexas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/vinho.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Vinho</h5>
+                                        <p>O vinho é uma bebida elegante e apreciada há milênios, produzida a partir da fermentação de uvas. Com uma infinidade de variedades, desde os tintos robustos até os brancos delicados e rosés refrescantes, o vinho é celebrado em diversas culturas e ocasiões.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tab-pane" id="hamburguer">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/hamburguer/hamburguer-de-siri.jpeg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Hamburguer de Siri</h5>
+                                        <p>O Hambúrguer de Siri é uma iguaria única e saborosa, inspirada no famoso lanche do desenho Bob Esponja. Feito com carne de siri de alta qualidade, esse hambúrguer se destaca pelo seu sabor delicado e suculento, conquistando paladares de todas as idades.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/hamburguer/hamburguer1.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Hamburguer</h5>
+                                        <p>O hambúrguer é uma das comidas mais apreciadas e versáteis do mundo. Composto por um suculento disco de carne, geralmente bovina, grelhado e servido em um pão macio.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="prato-principal">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/pratos/pizza.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>A pizza é uma das iguarias mais queridas e versáteis do mundo. Originária da Itália, essa delícia é feita com uma base de massa, coberta com molho de tomate e uma variedade infinita de ingredientes.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/pratos/salmao.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                        <p>O salmão é um peixe muito apreciado por seu sabor delicado e textura macia, além de ser uma excelente fonte de proteínas e ômega-3. Versátil na cozinha, o salmão pode ser preparado de diversas maneiras, como grelhado, assado, defumado ou cru, como no sushi e sashimi.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/sobremesas/bolo.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                        <p>O bolo é um dos doces mais tradicionais e amados em diversas culturas ao redor do mundo. Feito a partir de uma mistura de farinha, ovos, açúcar e outros ingredientes, ele pode ser personalizado com uma infinidade de sabores e coberturas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/sobremesas/cupcake.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">cupcake</h5>
+                                        <p>O cupcake é um pequeno bolo individual que combina sabor e praticidade em uma única mordida. Perfeito para festas e eventos, os cupcakes são conhecidos por sua apresentação charmosa e criativa, muitas vezes decorados com coberturas coloridas, glacês e confeitos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="fale-conosco" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email">Seu E-mail</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone">Seu Telefone</label>
+                                    <input type="tel" id="telefone" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label">Sua mensagem</label>
+                                    <textarea class="form-control" name="mensagem" id=""></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes sociais</h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored" ></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored" ></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço</h3>
+                                <p> Rua das Conchas, 456 Bairro Fenda do Biquíni</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
